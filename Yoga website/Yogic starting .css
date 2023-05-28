@@ -322,6 +322,11 @@ input[type=text], select, textarea {
   padding: 20px;
 }
 
+.column-55 {
+  float: left;
+  width: 40%;
+}
+
 .xlarge-font {
   font-size: 48px
 }
