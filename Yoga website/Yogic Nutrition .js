@@ -1,3 +1,4 @@
+//Collapsibles function
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -13,7 +14,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// When the user scrolls the page, execute myFunction 
+// When the user scrolls the page, execute scroll
 window.onscroll = function() {myFunction()};
 
 function myFunction() {

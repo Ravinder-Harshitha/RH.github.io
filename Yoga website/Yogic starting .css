@@ -42,7 +42,7 @@
   }
 
   div.scroll-container1 {
-    background-color: #1c2e6f;
+    background-color: #6a888c;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -50,16 +50,6 @@
   
   div.scroll-container1 img {
     padding: 10px;
-  }
-
-  
-  * {
-    box-sizing:border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
   }
   
   .container {
@@ -78,23 +68,8 @@
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #04AA6D;
+    background-color: #00754a;
   }
-  
-  @media screen and (max-width: 1000px) {
-    .column-66,
-    .column-33 {
-      width: 100%;
-      text-align: center;
-    }
-    img {
-      margin: auto;
-    }
-  }
-
-
-  * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
 
 /* Slideshow container */
 .slideshow-container {
@@ -117,7 +92,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   width: auto;
   margin-top: -30px;
   padding: 16px;
-  color: #888;
+  color: #00754a;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -133,7 +108,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: #00754a;
   color: white;
 }
 
@@ -158,7 +133,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* Add a background color to the active dot/circle */
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #00754a;
 }
 
 /* Add an italic font style to all quotes */
@@ -175,7 +150,7 @@ section{
 .button {
     display: inline-block;
     border-radius: 5px;
-    background-color: #34318cfe;
+    background-color: #00754a;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -185,6 +160,10 @@ section{
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+  }
+
+  button:hover{
+    opacity: 0.6;
   }
   
   .button span {
@@ -244,7 +223,7 @@ ul li {
   list-style: none;
   display: inline-block;
   padding: 14px;
-  font-size: 20px;
+  font-size: 18px;
   color:rgb(255, 255, 255)
 }
 ul li a{
@@ -335,4 +314,58 @@ input[type=text], select, textarea {
   display: block;
   height: auto;
   max-width: 100%;
+}
+h4{
+  font-size: 25px;
+  padding-left: 30px;
+}
+.font{
+  color: white;
+}
+
+footer{
+  background-color: #04AA6D;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+  padding:30px 0px;
+  text-align:center;
+}
+
+.fa {
+      padding: 10px;
+      font-size: 80px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: white;
+  color: #04AA6D;
+}
+
+.fa-google {
+  background-color: white;
+  color: #04AA6D;
+}
+
+.fa-linkedin {
+  background-color: white;
+  color: #04AA6D;
+}
+
+.fa-youtube {
+  background-color: white;
+  color: #04AA6D;
+}
+
+.fa-instagram {
+  background-color: white;
+  color: #04AA6D;
 }

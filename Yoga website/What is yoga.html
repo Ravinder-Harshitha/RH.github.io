@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="What is yoga.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Yoga?</title>
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="house black.png" width="190px" height="65px" id=logo alt="Logo image" style="margin-left: 5px;" />
+              <ul class="navigationbar">
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20starting%20.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20About%20page%20.html">About Us</a></li>
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20home%20page%20.html">Latest</a></li>
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20Yoga%20poses%20.html">Yoga Poses</a></li>
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20Meditation%20page%20.html">Meditation</a></li>
+                <li><a href="http://127.0.0.1:5501/Yoga%20website/Yogic%20Nutrition%20page%20.html">Nutrition</a></li>
+              </ul>
+        </nav>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>  
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main>
+        <h1>What is Yoga?</h1>
+        <section>
+            <img src="Easy-Pose-1.jpg" height="300px" width="500px">
+        </section>    
+        <h3>Origin of yoga</h3>
+        <p>Yoga is a practice that involves the physical, mental and spiritual self. It was a discipline that originated in ancient India and was aimed at instilling peace of mind and body with concentration, meditation, postures and breathing. Yoga can be said to have over 5000 years of history and is probably one of the oldest ways to keep track of your mind and body.
+
+            History reveals that it was Indian monks who spread their knowledge of yoga in the West. Yoga styles range from gentle to physically demanding postures. Not every pose is recommended for everyone practising yoga.</p>
+        
+        <h3>Why yoga?</h3>    
+        <p>Yoga is known to promote good physical and mental health. Practising yoga can help you calm your body and mind, which would, in turn, help you with your overall day-to-day performance in every field. Here are a few pointers to help you understand why exactly practising yoga would be a good decision on your part.</p>
+
+        <h3>Benefits</h3>
+        <ol>
+            <li>It improves your balance, strength and flexibility.</li>
+            <li>It relieves stress and promotes good sleep</li>
+            <li>It helps one quit smoking through meditation and breathing exercises</li>
+            <li>It helps in managing anxiety and any symptoms of depression.</li>
+            <li>It helps you with better energy that would help you be efficient in everyday life</li>
+            <li>It helps in reducing any sort of physical pain you are experiencing</li>
+        </ol>
+        <p>And many other benefits...</p>
+        <p>There are different kinds of yoga, and it is very vital that you identify the right yoga style for you. Yoga can help you achieve physical and mental peace and stability. Yoga is a good routine activity for those who have high cholesterol, high blood pressure, diabetes, etc.</p>
+
+        <h3>Yoga or Fitness Workout</h3>
+        <p>It is often difficult to choose between yoga and fitness workouts since both have their own benefits. Yoga is mainly reserved for people who would like to take some time off their busy lives and enjoy the quiet. Meditation and monitored breathing exercises are a major part. Loss of body weight is possible with yoga, but yoga is not the right choice for someone who wants to witness quick results.
+
+            Fitness workouts happen to show quick results if it is done regularly. Fitness workouts include intensive bodily movements like cardio workouts, skipping, jumping jacks, push-ups, pull-ups, squats and so on. Working out with weights has proven to be very effective, but for those who do not have the stamina and have some medical complications, this is not advisable.</p>
+        
+        <h3>General FAQ's on Yoga</h3>
+        
+        <button type="button" class="collapsible">Can yoga help in weight reduction?</button>
+        <div class="content">
+            <p>Yoga is mainly done for the sake of meditation and relaxation. However, the continued practice of yoga can help in the loss of body weight as it burns calories.</p>
+        </div>
+
+        <button type="button" class="collapsible">Can I do yoga after eating?</button>
+        <div class="content">
+            <p>Like any other exercise, it is not advisable to practise yoga as soon as you finish your meals. It is suggested that you have a break of one or two hours after your meal so that you will not face any inconveniences or indigestion when doing yoga or even after you do.</p>
+        </div>
+
+        <button type="button" class="collapsible">How can yoga help your body?</button>
+        <div class="content">
+            <p>Practising yoga on a routine basis will definitely help your body gain strength and also help you build a good posture. It relaxes your body and mind, thereby keeping you fresh and energetic throughout the day.</p>
+        </div>
+    </main>
+    <footer>
+        <p>Follow us on our social media handles:-</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <br>
+        <br>
+        <p>©2023 Made by: Ravinder Harshitha Egudur</p>
+    </footer>
+    <script>
+        // When the user scrolls the page, execute scroll
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+        }
+
+        //Collapsibles function
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+    </script>
+</body>
+</html>
