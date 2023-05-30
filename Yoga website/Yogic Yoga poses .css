@@ -35,28 +35,20 @@
     padding: 10px;
   }
   
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
   /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #95D585;
+    background-color: #f1f1f1;
   }
 
   .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #81c670;
+    color:white;
     cursor: pointer;
   }
 
@@ -95,6 +87,7 @@
     }
     ul li a:hover {
          background-color: #525252;
+         color:white
     }
     
     .progress-container {
