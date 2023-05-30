@@ -33,6 +33,7 @@ ul li a{
 }
 ul li a:hover {
      background-color: #525252;
+     color:white;
 }
 
 .progress-container {
