@@ -24,12 +24,14 @@ h2{
     font-size: 45px;
     text-align: center;
   }
+   /* About section */
   .about-section {
     padding: 40px;
     text-align: center;
     background-color:rgb(84, 207, 166);
     color: rgb(255, 255, 255);
     }
+     /* Navigation Bar */
     nav {
       display: flex;
       flex-wrap: wrap;
@@ -57,7 +59,7 @@ h2{
     border-bottom: 8px solid green;
 }
 
-  
+   /* Progress Bar upon scroll */
   .progress-container {
       width: 100%;
       height: 8px;
@@ -76,7 +78,7 @@ h2{
       width: 100%;
       background-color: #f1f1f1;
     }
-
+     /* Footer */
     footer{
       background-color: #048b4c;
       margin-top: 80px;

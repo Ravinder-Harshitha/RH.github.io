@@ -40,7 +40,7 @@
     .large-font {
       font-size: 48px;
     }
-
+     /* Navigation Bar */
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -76,7 +76,7 @@
         width: 100%;
         background-color: #f1f1f1;
       }
-    
+       /* Progress Bar upon scroll */
       .progress-container {
         width: 100%;
         height: 8px;
@@ -102,7 +102,7 @@
         line-height: 130%;
       }
 
-
+       /* Footer */
       footer{
         background-color: #048b4c;
         margin-top: 80px;

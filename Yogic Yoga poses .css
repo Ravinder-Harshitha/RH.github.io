@@ -51,7 +51,7 @@
     color:white;
     cursor: pointer;
   }
-
+   /* About section */
   .about-section {
     padding: 50px;
     text-align: center;
@@ -62,7 +62,7 @@
     .large-font {
       font-size: 48px;
     }
-
+     /* Navigation Bar */
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -90,7 +90,7 @@
       border-bottom: 8px solid green;
   }
 
-    
+     /* Progress Bar upon scroll */
     .progress-container {
         width: 100%;
         height: 8px;
@@ -119,7 +119,7 @@
       section{
         text-align: center;
       }
-
+       /* Footer */
       footer{
         background-color: #048b4c;
         margin-top: 80px;

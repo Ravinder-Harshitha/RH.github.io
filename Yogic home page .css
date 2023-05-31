@@ -70,7 +70,7 @@
     animation-name: fade;
     animation-duration: 10.0s;
     }
-
+     /* Navigation Bar */
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -104,13 +104,13 @@
       padding: 5px;
     }
     
-    /* Clearfix (clear floats) */
+    /* Clearfix to clear floats */
     .row55::after {
       content: "";
       clear: both;
       display: table;
     }
-
+     /* Horizontal Gallery of pictures */
     div.gallery {
       border: 2px solid #ffffff;
       
@@ -187,7 +187,7 @@
       font-family:Arial, Helvetica, sans-serif;
       line-height: 140%;
     }
-
+     /* Buttons */
     button {
       display: inline-block;
       border-radius: 5px;
@@ -206,7 +206,7 @@
     button:hover {
       background-color: #555;
     }
-
+     /* Footer */
     footer{
       background-color: #048b4c;
       margin-top: 80px;
