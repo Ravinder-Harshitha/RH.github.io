@@ -31,10 +31,11 @@ ul li a{
   cursor: pointer;
   color: rgb(0, 106, 28);
 }
-ul li a:hover {
-     background-color: #525252;
-     color:white;
+.navigationbar li a:hover {
+  text-decoration: none;
+  border-bottom: 8px solid green;
 }
+
 
 .progress-container {
     width: 100%;
