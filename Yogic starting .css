@@ -128,10 +128,10 @@
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;}
+q {font-style: italic; font-family: Arial, Helvetica, sans-serif; font-size: 19px;}
 
 /* Add a blue color to the author */
-.author {color: cornflowerblue;}
+.author {color: rgb(47, 102, 203); font-size: 19px;}
 
 section{
     text-align: center;
@@ -247,15 +247,19 @@ ul li a{
 }
 
 main{
-    background-image: url(zen-japanese-garden-black-stones-background-horizontal-banner-pile-sand-scene-245575114.jpg);
+    background-image: url(image.png);
     background-repeat: no-repeat;
     text-align: right;
-    padding-right: 180px;
-    padding-top: 190px;
+    padding-right: 60px;
+    padding-top: 180px;
   }
 
+  #demo{
+    font-family: monospace;
+    font-size: 23.50px;
+  }
 p{
-  font-size: 17.75px;
+  font-size: 17.95px;
   font-family:Arial, Helvetica, sans-serif;
   line-height: 130%;
 }
@@ -377,4 +381,12 @@ footer{
   .reveal.active{
   transform: translateY(0);
   opacity: 1;
+  }
+
+  .container88 {
+    border-radius: 5px;
+    background-color: #A0DED9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
   }
